@@ -1,0 +1,22 @@
+{
+    "name"  : "tale/gateway-worker",
+    "type"  : "project",
+    "keywords": ["event-loop", "asynchronous"],
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name"      : "tale",
+            "email"     : "zsj342973802@qq.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3",
+        "tale/workerman" : "^3.3.0"
+    },
+    "suggest": {
+	   "ext-libevent": "For better performance."
+    },
+    "autoload": {
+        "psr-4": {"GatewayWorker\\": "GatewayWorker"}
+    }
+}
